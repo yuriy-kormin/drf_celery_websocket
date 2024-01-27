@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "drf-celery-websocket"
+version = "0.1.0"
+description = ""
+authors = ["Yuriy Kormin <yuriy.kormin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.1"
+djangorestframework = "^3.14.0"
+dj-database-url = "^2.1.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
